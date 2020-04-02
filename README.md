@@ -1,3 +1,5 @@
+[![Build Status](https://scant.visualstudio.com/scant100/_apis/build/status/scant100-CI?branchName=master)](https://scant.visualstudio.com/scant100/_build/latest?definitionId=3&branchName=master)
+
 # monolith
 참고:  
 Order 와 product 는 N:1 (다대일) 관계이다.  
@@ -19,3 +21,5 @@ http PATCH localhost:8088/deliveries/1 deliveryState=DeliveryCompleted
 
 -- 주문 취소 하기
 http PATCH localhost:8088/orders/1 state=OrderCancelled
+
+
